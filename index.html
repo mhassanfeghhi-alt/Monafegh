@@ -5,7 +5,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap" rel="stylesheet">
 <style>
 :root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@font-face{font-family:Vazirmatn;font-weight:400 900;src:local('Vazirmatn'),url(Vazirmatn.woff2) format('woff2')}
+ @font-face {
+        font-family: Vazirmatn;
+        src: url(fonts/Vazirmatn.woff2) format("woff2");
+        font-weight: 100 900;
+        font-display: swap
+    }
 *{box-sizing:inherit;font-family:Vazirmatn,Tahoma,sans-serif;-webkit-tap-highlight-color:transparent}
 body{margin:0;min-height:100vh;background:var(--bg);color:var(--tx);transition:background .8s,color .8s;--bg:#eaf5e4;--c:#fff;--ac:#2e7d32;--tx:#1b2e1b;--ac2:#fff}
 body[data-t=sea]{--bg:#e3f2fb;--ac:#0277bd;--tx:#10283a}
